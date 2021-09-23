@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/macrobase.iml" filepath="$PROJECT_DIR$/macrobase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alexp/macrobase-alexp.iml" filepath="$PROJECT_DIR$/alexp/macrobase-alexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assembly/macrobase-assembly.iml" filepath="$PROJECT_DIR$/assembly/macrobase-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/macrobase-core.iml" filepath="$PROJECT_DIR$/core/macrobase-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/macrobase-frontend.iml" filepath="$PROJECT_DIR$/frontend/macrobase-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legacy/macrobase-legacy.iml" filepath="$PROJECT_DIR$/legacy/macrobase-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/macrobase-lib.iml" filepath="$PROJECT_DIR$/lib/macrobase-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql/macrobase-sql.iml" filepath="$PROJECT_DIR$/sql/macrobase-sql.iml" />
+    </modules>
+  </component>
+</project>

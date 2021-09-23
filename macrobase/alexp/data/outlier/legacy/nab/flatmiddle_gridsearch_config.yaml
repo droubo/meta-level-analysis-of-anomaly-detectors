@@ -1,0 +1,31 @@
+inputURI: "csv://alexp/data/outlier/nab/data/artificialWithAnomaly/art_daily_flatmiddle.csv"
+timeColumn: "timestamp"
+timeFormat: "yyyy-MM-dd HH:mm:ss"
+metricColumns:
+  - "value"
+nabLabelFile: "alexp/data/outlier/nab/labels/only_anomalies_art_windows.json"
+
+searchMeasure: "f1"
+
+classifiers:
+  - classifier: "mcod"
+    classifierWindowSize: 100000
+    classifierSlide: 100000
+    searchParams:
+      - maxDistance:
+        - 1.0
+        - 6.0
+        - 14.0
+        - 15.0
+        - 16.0
+        - 17.0
+        - 30.0
+        - 40.0
+        - 80.0
+      - minNeighborCount:
+        - 1
+        - 10
+        - 50
+        - 150
+        - 180
+        - 250

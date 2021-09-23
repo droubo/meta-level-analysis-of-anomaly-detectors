@@ -1,0 +1,3 @@
+java -Xmx4g -jar benchmark.jar -b C:\Users\Droubo\Desktop\MaBase\Configuration -s
+
+java -Xmx8g -jar benchmark.jar -b /home/user/Desktop/MaBase/Configuration -s

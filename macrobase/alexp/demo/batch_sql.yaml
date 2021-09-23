@@ -1,0 +1,21 @@
+inputURI: "jdbc:postgresql://localhost:5432/postgres?user=postgres&password=pgpassword"
+query: "SELECT * FROM flights"
+
+classifiers:
+  - classifier: "percentile"
+    metricColumns:
+      - "departure_delay"
+    cutoff: 1.0
+    includeHi: true
+    includeLo: false
+
+summarizer: "fpgrowth"
+attributes:
+  - "airline"
+  - "destination_airport"
+  - "flight_number"
+  - "origin_airport"
+  - "tail_number"
+ratioMetric: "globalratio"
+minRatioMetric: 2.0
+minSupport: 0.001

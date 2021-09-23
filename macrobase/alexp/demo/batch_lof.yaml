@@ -1,0 +1,19 @@
+inputURI: "csv://alexp/demo/sample.csv"
+
+classifiers:
+  - classifier: "lof-bkaluza"
+    metricColumns:
+      - "usage"
+    knn: 5
+    trainSize: 200
+  - classifier: "predicate"
+    predicate: ">="
+    cutoff: 3.0
+
+summarizer: "aplinear"
+attributes:
+  - "location"
+  - "version"
+ratioMetric: "globalratio"
+minRatioMetric: 3.0
+minSupport: 0.2
