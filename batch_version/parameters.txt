@@ -1,0 +1,51 @@
+
+## ISOLATION FOREST ##
+
+run_if = False
+if_run_times = 10
+if_trees = 25,50,100
+if_sub_sample_size = 0.4
+if_behavior = new
+
+## LOF ##
+
+run_lof = False
+lof_n_neighbors = 5,10,15,20,30,50,100,150
+lof_distance_metric = euclidean
+
+## KNN ##
+
+run_knn = False
+knn_n_neighbors = 5,10,15,20,30,50,100,150
+knn_distance_metric = euclidean
+
+## ONE CLASS RANDOM FOREST ##
+
+run_ocrf = True
+ocrf_run_times = 1
+ocrf_trees = 25,50,100
+ocrf_sub_sample_size = 0.4
+
+## PID FOREST ##
+
+run_pid = False
+pid_run_times = 10
+pid_trees = 25,50,100
+pid_sub_sample_size = 0.4
+pid_buckets = 2,4
+pid_depth = 10
+pid_epsilon = 0.1
+pid_sub_sample_size = 0.4
+
+## LODA ##
+
+run_loda = False
+loda_run_times = 10
+
+## XSTREAM ##
+
+run_xstream = False
+k = 25,50,100
+nchains = 25,50,100
+depth = 25
+xstream_run_times = 10
